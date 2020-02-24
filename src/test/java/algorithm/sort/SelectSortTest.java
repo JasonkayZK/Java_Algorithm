@@ -29,7 +29,7 @@ public class SelectSortTest {
      * 测试优化后的冒泡排序
      */
     @Test
-    public void testSortWithFlag() {
+    public void sortBilaterallyTest() {
         Integer[] a = RandomArrayUtil.getRandomBoxedIntArray(0, 1000, 20);
         sortBilaterally(a);
         show(a);
