@@ -1,4 +1,4 @@
-package algorithm.math;
+package algorithm.basic;
 
 public class GCD {
 

@@ -2,29 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcbbcd2-80b5-47cf-b373-24c5b6ab0c30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/Binomial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BaseSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/CountSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/string/BoyerMoore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/string/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/array/StdArrayIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/array/StdStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/Draw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/DrawListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/GrayscalePicture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/StdDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/mandrill.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/BinaryIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/BinaryOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/BinaryStdIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/BinaryStdOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/In.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/InTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/Out.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/StdIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/StdOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/media/StdAudio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/random/RandomArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/random/StdRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/watch/Stopwatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/watch/StopwatchCPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/basic/OverflowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/BucketSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/CountSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/HeapSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/InsertionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/RadixSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/SelectSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/ShellSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/math/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/math/GCD.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="166" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -32,82 +83,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/sort/QuickSort.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="148" />
-    <option name="width" value="1440" />
-    <option name="height" value="789" />
-  </component>
+  <component name="ProjectId" id="1XHJV2wjggZTAthLFrX6xi6Xmga" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/lib/algs4.jar!/" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/algorithm/util/draw" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -115,21 +117,155 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="algorithm.sort" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/sources" />
+      <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/watch" />
+      <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/array" />
+      <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/media" />
+      <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/random" />
+      <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/iostream" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/draw" />
+      <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/iostream" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/random/number" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="JUnit.RadixSortTest.sortTest">
+    <configuration name="BoyerMoore" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.string.BoyerMoore" />
+      <module name="Java_Algorithm" />
+      <option name="PROGRAM_PARAMETERS" value="abracadabra abacadabrabracabracadabrabrabracad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectSort" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.SelectSort" />
+      <module name="Java_Algorithm" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$USER_HOME$/Videos/algs4/algs4-data/words3.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BucketSortTest.bucketSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.BucketSortTest" />
+      <option name="METHOD_NAME" value="bucketSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.CountSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSortTest.sortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.CountSortTest" />
+      <option name="METHOD_NAME" value="sortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSortTest.sortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.HeapSortTest" />
+      <option name="METHOD_NAME" value="sortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadixSortTest.sortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.RadixSortTest" />
+      <option name="METHOD_NAME" value="sortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BoyerMoore" />
+      <item itemvalue="Application.SelectSort" />
+      <item itemvalue="JUnit.HeapSortTest.sortTest" />
+      <item itemvalue="JUnit.CountSortTest.sortTest" />
+      <item itemvalue="JUnit.CountSortTest" />
+      <item itemvalue="JUnit.BucketSortTest.bucketSortTest" />
+      <item itemvalue="JUnit.RadixSortTest.sortTest" />
+    </list>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="JUnit.RadixSortTest.sortTest" />
+        <item itemvalue="JUnit.BucketSortTest.bucketSortTest" />
+        <item itemvalue="JUnit.CountSortTest" />
+        <item itemvalue="JUnit.CountSortTest.sortTest" />
+        <item itemvalue="JUnit.HeapSortTest.sortTest" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -143,153 +279,143 @@
       <updated>1564906631757</updated>
       <workItem from="1564906633443" duration="1154000" />
       <workItem from="1566207327383" duration="1689000" />
+      <workItem from="1580697109013" duration="302000" />
+      <workItem from="1580697418596" duration="11176000" />
+      <workItem from="1581475125286" duration="2000" />
+      <workItem from="1581477074926" duration="2000" />
+      <workItem from="1582079817722" duration="12076000" />
+      <workItem from="1582160235938" duration="2809000" />
+      <workItem from="1582246416033" duration="1204000" />
+      <workItem from="1582424349554" duration="36895000" />
+      <workItem from="1582505651725" duration="4641000" />
+      <workItem from="1582510979230" duration="13964000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2843000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="148" width="1440" height="789" extended-state="0" />
-    <layout>
-      <window_info id="Alibaba Cloud Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16546243" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="leetcode" side_tool="true" />
-      <window_info anchor="right" id="Alibaba Log Console" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="1094" y="196" width="681" height="712" key="#BinarySearchFromFile" timestamp="1580705431668">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1094" y="196" width="681" height="712" key="#BinarySearchFromFile/0.27.1920.1053@0.27.1920.1053" timestamp="1580705431668" />
+    <state x="1094" y="188" width="681" height="728" key="#BoyerMoore" timestamp="1582093691972">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1094" y="188" width="681" height="728" key="#BoyerMoore/0.27.1920.1053@0.27.1920.1053" timestamp="1582093691972" />
+    <state x="614" y="188" width="681" height="728" key="#BubbleSort" timestamp="1582432290277">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="614" y="188" width="681" height="728" key="#BubbleSort/0.27.1920.1053@0.27.1920.1053" timestamp="1582432290277" />
+    <state x="555" y="214" width="853" height="677" key="#Project_Structure" timestamp="1582432479112">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="214" width="853" height="677" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1582432479112" />
+    <state x="1035" y="214" width="800" height="677" key="#VisualVM_Launcher" timestamp="1580706093332">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1035" y="214" width="800" height="677" key="#VisualVM_Launcher/0.27.1920.1053@0.27.1920.1053" timestamp="1580706093332" />
+    <state x="130" y="58" width="1403" height="866" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582093674493">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="130" y="58" width="1403" height="866" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582093674493" />
+    <state x="912" y="282" width="738" height="749" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1580706080422">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="912" y="282" width="738" height="749" key="#com.intellij.ide.macro.MacrosDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580706080422" />
+    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1582516157482">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1248" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1582516157482" />
+    <state x="1275" y="445" width="309" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580700306002">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1275" y="445" width="309" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580700306002" />
+    <state x="1123" y="273" width="624" height="559" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582510967610">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1123" y="273" width="624" height="559" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582510967610" />
+    <state x="1189" y="398" width="501" height="321" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580701024825">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1189" y="398" width="501" height="321" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.1053@0.27.1920.1053" timestamp="1580701024825" />
+    <state x="1192" y="27" width="486" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582465657689">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1192" y="27" width="486" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582465657689" />
+    <state x="693" y="299" width="524" height="507" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1582453878929">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="299" width="524" height="507" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582453878929" />
+    <state x="1021" y="294" width="744" height="518" key="FileChooserDialogImpl" timestamp="1582432288741">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1021" y="294" width="744" height="518" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582432288741" />
+    <state width="906" height="458" key="GridCell.Tab.0.bottom" timestamp="1582529676996">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="906" height="458" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582529676996" />
+    <state width="906" height="458" key="GridCell.Tab.0.center" timestamp="1582529676995">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="906" height="458" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582529676995" />
+    <state width="906" height="458" key="GridCell.Tab.0.left" timestamp="1582529676995">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="906" height="458" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582529676995" />
+    <state width="906" height="458" key="GridCell.Tab.0.right" timestamp="1582529676996">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="906" height="458" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582529676996" />
+    <state width="906" height="458" key="GridCell.Tab.1.bottom" timestamp="1582529676996">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="906" height="458" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582529676996" />
+    <state width="906" height="458" key="GridCell.Tab.1.center" timestamp="1582529676996">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="906" height="458" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582529676996" />
+    <state width="906" height="458" key="GridCell.Tab.1.left" timestamp="1582529676996">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="906" height="458" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582529676996" />
+    <state width="906" height="458" key="GridCell.Tab.1.right" timestamp="1582529676996">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="906" height="458" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582529676996" />
+    <state x="886" y="131" width="1024" height="845" key="SettingsEditor" timestamp="1580707290450">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="886" y="131" width="1024" height="845" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1580707290450" />
+    <state x="1207" y="330" width="455" height="445" key="chooseDestDirectoryDialog" timestamp="1580701034788">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1207" y="330" width="455" height="445" key="chooseDestDirectoryDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580701034788" />
+    <state x="720" y="213" width="470" height="679" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582529417879">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="720" y="213" width="470" height="679" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582529417879" />
+    <state x="1247" y="341" width="524" height="544" key="extract.method.dialog" timestamp="1582446870886">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1247" y="341" width="524" height="544" key="extract.method.dialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582446870886" />
+    <state x="1082" y="229" width="716" height="646" key="find.popup" timestamp="1582087325789">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1082" y="229" width="716" height="646" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1582087325789" />
+    <state x="1104" y="252" width="672" height="680" key="run.anything.popup" timestamp="1582514923461">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1104" y="252" width="672" height="680" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1582514923461" />
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1582515060585">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1103" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1582515060585" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Algorithm</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>algs4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithm$BinarySearchFromFile.ic" NAME="BinarySearchFromFile Coverage Results" MODIFIED="1580705384266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>algorithm.basic.*</FILTER>
+    </SUITE>
   </component>
 </project>
