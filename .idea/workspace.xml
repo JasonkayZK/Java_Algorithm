@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcbbcd2-80b5-47cf-b373-24c5b6ab0c30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/Binomial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BaseSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/CountSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/string/BoyerMoore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/string/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/array/StdArrayIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/array/StdStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/Draw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/DrawListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/GrayscalePicture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/StdDraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/draw/mandrill.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/BinaryIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/BinaryOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/BinaryStdIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/BinaryStdOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/In.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/InTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/Out.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/StdIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/iostream/StdOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/media/StdAudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/random/RandomArrayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/random/StdRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/watch/Stopwatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/util/watch/StopwatchCPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/basic/OverflowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/BubbleSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/BucketSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/CountSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/HeapSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/InsertionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/RadixSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/SelectSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/ShellSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/math/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algorithm/math/GCD.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +41,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -288,7 +233,7 @@
       <workItem from="1582246416033" duration="1204000" />
       <workItem from="1582424349554" duration="36895000" />
       <workItem from="1582505651725" duration="4641000" />
-      <workItem from="1582510979230" duration="13964000" />
+      <workItem from="1582510979230" duration="16849000" />
     </task>
     <servers />
   </component>
