@@ -38,9 +38,12 @@ A repository for learning algorithm using Java.
 
 ### Introduce article
 
+-   Basic
+    -   [Fibonacci序列生成算法的优化](https://jasonkayzk.github.io/2020/02/25/Fibonacci序列生成算法的优化/)
 -   Sort
     -   [几种常见排序方法的优化(上)](https://jasonkayzk.github.io/2020/02/24/几种常见排序方法的优化(上)/)
     -   [几种常见排序方法的优化(下)](https://jasonkayzk.github.io/2020/02/24/几种常见排序方法的优化-下/)
+    -   [并发排序从ForkJoin到Stream](https://jasonkayzk.github.io/2020/02/25/并发排序从ForkJoin到Stream/)
 
 <br/>
 

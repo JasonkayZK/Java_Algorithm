@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcbbcd2-80b5-47cf-b373-24c5b6ab0c30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/ParallelMergeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/sort/BaseSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BaseSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +245,7 @@
       <workItem from="1582505651725" duration="4641000" />
       <workItem from="1582510979230" duration="30013000" />
       <workItem from="1582547760723" duration="600000" />
-      <workItem from="1582597034767" duration="16723000" />
+      <workItem from="1582597034767" duration="17532000" />
     </task>
     <servers />
   </component>
@@ -268,10 +265,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="614" y="188" width="681" height="728" key="#BubbleSort/0.27.1920.1053@0.27.1920.1053" timestamp="1582432290277" />
-    <state x="555" y="214" width="853" height="677" key="#Project_Structure" timestamp="1582432479112">
+    <state x="555" y="214" width="853" height="677" key="#Project_Structure" timestamp="1582619704921">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="214" width="853" height="677" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1582432479112" />
+    <state x="555" y="214" width="853" height="677" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1582619704921" />
     <state x="1035" y="214" width="800" height="677" key="#VisualVM_Launcher" timestamp="1580706093332">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
