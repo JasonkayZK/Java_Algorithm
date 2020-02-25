@@ -53,8 +53,6 @@ public class Fibonacci {
     public static long fibByArray(int n) {
         if (n <= 2) return Math.max(0, n);
 
-        long[] res = {0, 1};
-
         long fibOne = 1, fibTwo = 0, fibN = 0;
         for (int i = 1; i < n; i++) {
             fibN = fibOne + fibTwo;

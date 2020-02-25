@@ -11,6 +11,37 @@ import static algorithm.sort.ParallelMergeSort.parallelMergeSort;
 
 public class ParallelMergeSortTest {
 
+    @Test
+    public void parallelMergeSortTest() {
+        // 排序大小
+        final int sortSize = 1000000;
+
+        Integer[] arr1 = RandomArrayUtil.getRandomBoxedIntArray(sortSize);
+        System.out.println("Arrays created!");
+
+        long startTime = System.currentTimeMillis();
+        parallelMergeSort(arr1);
+        long endTime = System.currentTimeMillis();
+        System.out.println("Sequent time is: " + (endTime - startTime) + " milliseconds");
+        assert BaseSort.isSorted(arr1);
+    }
+
+    @Test
+    public void streamSortTest() {
+        // 排序大小
+        final int sortSize = 1000000;
+        List<Integer> list = Arrays
+                .stream(RandomArrayUtil.getRandomBoxedIntArray(sortSize))
+                .collect(Collectors.toList());
+        System.out.println("Arrays created!");
+
+        long startTime = System.currentTimeMillis();
+        int[] res = list.stream().parallel().mapToInt(Integer::intValue).sorted().toArray();
+        long endTime = System.currentTimeMillis();
+        System.out.println("ParallelStream time is: " + (endTime - startTime) + " milliseconds");
+        assert BaseSort.isSorted(res);
+    }
+
     /**
      * 比较单线程归并排序, ForkJoin并发排序和Stream流排序
      *
@@ -36,7 +67,7 @@ public class ParallelMergeSortTest {
      *
      */
     @Test
-    public void parallelMergeSortTest() {
+    public void compareSort() {
         // 排序大小
         final int sortSize = 100000000;
 

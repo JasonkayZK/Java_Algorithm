@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0bcbbcd2-80b5-47cf-b373-24c5b6ab0c30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/basic/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithm/sort/ParallelMergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/ParallelMergeSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/iostream" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParallelMergeSortTest.parallelMergeSortTest">
+  <component name="RunManager" selected="JUnit.ParallelMergeSortTest.streamSortTest">
     <configuration name="BoyerMoore" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.string.BoyerMoore" />
       <module name="Java_Algorithm" />
@@ -92,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiThreadFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.basic.MultiThreadFibonacci" />
-      <module name="Java_Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTest.compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciTest.fibByArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="algorithm.basic" />
       <option name="MAIN_CLASS_NAME" value="algorithm.basic.FibonacciTest" />
-      <option name="METHOD_NAME" value="compare" />
+      <option name="METHOD_NAME" value="fibByArrayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,22 +180,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParallelMergeSortTest.streamSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.ParallelMergeSortTest" />
+      <option name="METHOD_NAME" value="streamSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BoyerMoore" />
       <item itemvalue="Application.SelectSort" />
-      <item itemvalue="JUnit.FibonacciTest.compare" />
-      <item itemvalue="Application.MultiThreadFibonacci" />
       <item itemvalue="JUnit.MultiThreadFibonacciTest.compute" />
       <item itemvalue="JUnit.MultiThreadFibonacciTest.compare" />
       <item itemvalue="JUnit.ParallelMergeSortTest.parallelMergeSortTest" />
+      <item itemvalue="JUnit.FibonacciTest.fibByArrayTest" />
+      <item itemvalue="JUnit.ParallelMergeSortTest.streamSortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParallelMergeSortTest.streamSortTest" />
         <item itemvalue="JUnit.ParallelMergeSortTest.parallelMergeSortTest" />
-        <item itemvalue="JUnit.MultiThreadFibonacciTest.compare" />
         <item itemvalue="JUnit.MultiThreadFibonacciTest.compute" />
-        <item itemvalue="JUnit.FibonacciTest.compare" />
-        <item itemvalue="Application.MultiThreadFibonacci" />
+        <item itemvalue="JUnit.FibonacciTest.fibByArrayTest" />
+        <item itemvalue="JUnit.MultiThreadFibonacciTest.compare" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +250,7 @@
       <workItem from="1582505651725" duration="4641000" />
       <workItem from="1582510979230" duration="30013000" />
       <workItem from="1582547760723" duration="600000" />
-      <workItem from="1582597034767" duration="17532000" />
+      <workItem from="1582597034767" duration="25771000" />
     </task>
     <servers />
   </component>
@@ -265,10 +270,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="614" y="188" width="681" height="728" key="#BubbleSort/0.27.1920.1053@0.27.1920.1053" timestamp="1582432290277" />
-    <state x="555" y="214" width="853" height="677" key="#Project_Structure" timestamp="1582619704921">
+    <state x="555" y="214" width="853" height="677" key="#Project_Structure" timestamp="1582621798991">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="214" width="853" height="677" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1582619704921" />
+    <state x="555" y="214" width="853" height="677" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1582621798991" />
     <state x="1035" y="214" width="800" height="677" key="#VisualVM_Launcher" timestamp="1580706093332">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -309,22 +314,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1021" y="294" width="744" height="518" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582432288741" />
-    <state width="906" height="460" key="GridCell.Tab.0.bottom" timestamp="1582619321213">
+    <state width="906" height="460" key="GridCell.Tab.0.bottom" timestamp="1582638812541">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="906" height="460" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582619321213" />
-    <state width="906" height="460" key="GridCell.Tab.0.center" timestamp="1582619321213">
+    <state width="906" height="460" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582638812541" />
+    <state width="906" height="460" key="GridCell.Tab.0.center" timestamp="1582638812541">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="906" height="460" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582619321213" />
-    <state width="906" height="460" key="GridCell.Tab.0.left" timestamp="1582619321212">
+    <state width="906" height="460" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582638812541" />
+    <state width="906" height="460" key="GridCell.Tab.0.left" timestamp="1582638812541">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="906" height="460" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582619321212" />
-    <state width="906" height="460" key="GridCell.Tab.0.right" timestamp="1582619321213">
+    <state width="906" height="460" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582638812541" />
+    <state width="906" height="460" key="GridCell.Tab.0.right" timestamp="1582638812541">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="906" height="460" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582619321213" />
+    <state width="906" height="460" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582638812541" />
     <state width="906" height="458" key="GridCell.Tab.1.bottom" timestamp="1582547755980">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
