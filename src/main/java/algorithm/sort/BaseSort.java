@@ -3,6 +3,7 @@ package algorithm.sort;
 import algorithm.util.iostream.StdOut;
 
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * 排序类的例子
@@ -60,6 +61,10 @@ public abstract class BaseSort {
         return isSorted(a, 0, a.length - 1);
     }
 
+    public static <K extends Comparable<K>> boolean isSorted(List<K> a) {
+        return isSorted(a, 0, a.size() - 1);
+    }
+
     public static boolean isSorted(int[] a) {
         return isSorted(a, 0, a.length - 1);
     }
@@ -74,6 +79,12 @@ public abstract class BaseSort {
     public static <K extends Comparable<K>> boolean isSorted(K[] a, int lo, int hi) {
         for (int i = lo + 1; i <= hi; i++)
             if (less(a[i], a[i-1])) return false;
+        return true;
+    }
+
+    public static <K extends Comparable<K>> boolean isSorted(List<K> a, int lo, int hi) {
+        for (int i = lo + 1; i <= hi; i++)
+            if (less(a.get(i), a.get(i-1))) return false;
         return true;
     }
 

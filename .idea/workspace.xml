@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcbbcd2-80b5-47cf-b373-24c5b6ab0c30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/basic/MultiThreadFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/MultiThreadMergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/basic/FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/basic/MultiThreadFibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithm/sort/ParallelMergeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/sort/BaseSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BaseSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +65,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="algorithm.basic" />
       <recent name="algorithm.sort" />
+      <recent name="algorithm.basic" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -89,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/algorithm/util/iostream" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiThreadFibonacciTest.compare">
+  <component name="RunManager" selected="JUnit.ParallelMergeSortTest.parallelMergeSortTest">
     <configuration name="BoyerMoore" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.string.BoyerMoore" />
       <module name="Java_Algorithm" />
@@ -148,22 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTest.compareAdvanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithm.basic" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.basic.FibonacciTest" />
-      <option name="METHOD_NAME" value="compareAdvanced" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultiThreadFibonacciTest.compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithm" />
       <extension name="coverage">
@@ -196,22 +178,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParallelMergeSortTest.parallelMergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.sort.ParallelMergeSortTest" />
+      <option name="METHOD_NAME" value="parallelMergeSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BoyerMoore" />
       <item itemvalue="Application.SelectSort" />
       <item itemvalue="JUnit.FibonacciTest.compare" />
-      <item itemvalue="JUnit.FibonacciTest.compareAdvanced" />
       <item itemvalue="Application.MultiThreadFibonacci" />
       <item itemvalue="JUnit.MultiThreadFibonacciTest.compute" />
       <item itemvalue="JUnit.MultiThreadFibonacciTest.compare" />
+      <item itemvalue="JUnit.ParallelMergeSortTest.parallelMergeSortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParallelMergeSortTest.parallelMergeSortTest" />
         <item itemvalue="JUnit.MultiThreadFibonacciTest.compare" />
         <item itemvalue="JUnit.MultiThreadFibonacciTest.compute" />
         <item itemvalue="JUnit.FibonacciTest.compare" />
         <item itemvalue="Application.MultiThreadFibonacci" />
-        <item itemvalue="JUnit.FibonacciTest.compareAdvanced" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +248,7 @@
       <workItem from="1582505651725" duration="4641000" />
       <workItem from="1582510979230" duration="30013000" />
       <workItem from="1582547760723" duration="600000" />
-      <workItem from="1582597034767" duration="10737000" />
+      <workItem from="1582597034767" duration="16723000" />
     </task>
     <servers />
   </component>
@@ -314,22 +312,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1021" y="294" width="744" height="518" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582432288741" />
-    <state width="1866" height="420" key="GridCell.Tab.0.bottom" timestamp="1582613328895">
+    <state width="906" height="460" key="GridCell.Tab.0.bottom" timestamp="1582619321213">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="420" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582613328895" />
-    <state width="1866" height="420" key="GridCell.Tab.0.center" timestamp="1582613328894">
+    <state width="906" height="460" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582619321213" />
+    <state width="906" height="460" key="GridCell.Tab.0.center" timestamp="1582619321213">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="420" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582613328894" />
-    <state width="1866" height="420" key="GridCell.Tab.0.left" timestamp="1582613328894">
+    <state width="906" height="460" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582619321213" />
+    <state width="906" height="460" key="GridCell.Tab.0.left" timestamp="1582619321212">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="420" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582613328894" />
-    <state width="1866" height="420" key="GridCell.Tab.0.right" timestamp="1582613328894">
+    <state width="906" height="460" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582619321212" />
+    <state width="906" height="460" key="GridCell.Tab.0.right" timestamp="1582619321213">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="420" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582613328894" />
+    <state width="906" height="460" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582619321213" />
     <state width="906" height="458" key="GridCell.Tab.1.bottom" timestamp="1582547755980">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -358,10 +356,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1207" y="330" width="455" height="445" key="chooseDestDirectoryDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580701034788" />
-    <state x="720" y="213" width="470" height="679" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582612495733">
+    <state x="720" y="213" width="470" height="679" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582614377424">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="720" y="213" width="470" height="679" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582612495733" />
+    <state x="720" y="213" width="470" height="679" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582614377424" />
     <state x="1247" y="341" width="524" height="544" key="extract.method.dialog" timestamp="1582446870886">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
