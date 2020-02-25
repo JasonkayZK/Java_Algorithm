@@ -5,6 +5,8 @@ A repository for learning algorithm using Java.
 -   **[basic](https://github.com/JasonkayZK/Java_Algorithm/tree/master/src/main/java/algorithm/basic):** some basic but generally-used algorithm
     -   BinarySearch
     -   GCD
+    -   Fibonacci
+    -   MultiThreadFibonacci
 -   **[sort](https://github.com/JasonkayZK/Java_Algorithm/tree/master/src/main/java/algorithm/sort):** sort algorithm
     -   BaseSort
     -   BubbleSort
@@ -17,6 +19,7 @@ A repository for learning algorithm using Java.
     -   CountSort
     -   BucketSort
     -   RadixSort
+    -   ParallelMergeSort
 -   **[string](https://github.com/JasonkayZK/Java_Algorithm/tree/master/src/main/java/algorithm/string):** algorithm for string manipulation(substring-search, sort, ……)
     -   BoyerMoore
     -   KMP
@@ -38,4 +41,28 @@ A repository for learning algorithm using Java.
 -   Sort
     -   [几种常见排序方法的优化(上)](https://jasonkayzk.github.io/2020/02/24/几种常见排序方法的优化(上)/)
     -   [几种常见排序方法的优化(下)](https://jasonkayzk.github.io/2020/02/24/几种常见排序方法的优化-下/)
+
+<br/>
+
+### Change log
+
+-   2020-02-25 added:
+    -   Fibonacci
+    -   MultiThreadFibonacci
+    -   ParallelMergeSort
+-   2020-02-24 added sort and there tests:
+    -   BaseSort
+    -   BubbleSort
+    -   SelectSort
+    -   InsertionSort
+    -   ShellSort
+    -   MergeSort
+    -   QuickSort
+    -   HeapSort
+    -   CountSort
+    -   BucketSort
+    -   RadixSort
+-   2020-01-03 Update utils and basic
+-   2019-08-19 Established Dev environment
+-   2019-08-03 Create Repository
 
