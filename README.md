@@ -1,6 +1,6 @@
 A repository for learning algorithm using Java.
 
-Now finished:
+### Now finished:
 
 -   **[basic](https://github.com/JasonkayZK/Java_Algorithm/tree/master/src/main/java/algorithm/basic):** some basic but generally-used algorithm
     -   BinarySearch
@@ -30,3 +30,12 @@ Now finished:
 -   **[test](https://github.com/JasonkayZK/Java_Algorithm/tree/master/src/test/java/algorithm):** Test and compare for the algorithms above
     -   basic
     -   sort
+
+<br/>
+
+### Introduce article
+
+-   Sort
+    -   [几种常见排序方法的优化(上)](https://jasonkayzk.github.io/2020/02/24/几种常见排序方法的优化(上)/)
+    -   [几种常见排序方法的优化(下)](https://jasonkayzk.github.io/2020/02/24/几种常见排序方法的优化-下/)
+
